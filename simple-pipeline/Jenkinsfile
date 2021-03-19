@@ -23,13 +23,11 @@ pipeline {
             }
         }
 
-        // TODO: ADD 
         stage('stage 2') {
 	  steps {
 	    sh 'echo hello from stage 2!'
 	  }
 	}
-        // TODO: ADD AN APPROVAL STAGE
 	
 	stage('manual approval') {
 	  steps {
